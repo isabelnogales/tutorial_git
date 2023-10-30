@@ -1,7 +1,7 @@
 # Biblioteca de funciones para trabajar con cadenas
 
 
-def longitud(cadena):
+def longitud(cadena: str) -> int:
     """
     Calcula la longitud de una cadena.
 
@@ -10,11 +10,11 @@ def longitud(cadena):
     :return: Longitud de la cadena.
     """
 
-    longitud = len(str)
-    return longitud
+    # ¡Tu código va aquí!
+    pass
 
 
-def invertir(cadena):
+def invertir(cadena: str) -> str:
     """
     Invierte una cadena.
 
@@ -22,9 +22,7 @@ def invertir(cadena):
 
     :return: Cadena invertida.
     """
-    palabra_invertida = cadena[::-1]
-    
-    return palabra_invertida
-    
-    
+
+    # ¡Tu código va aquí!
+    pass
 
