@@ -40,9 +40,8 @@ def haz_algo_con(esto: str) -> Any:
 
     :return: ???
     """
-
-    # ¡Tu código va aquí!
-    pass
+    hola = esto
+    return hola
 
 
 
