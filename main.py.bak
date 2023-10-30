@@ -5,7 +5,7 @@ import palabras as p
 
 
 
-def multiplicar(num1, num2):
+def multiplicar(num1: int, num2: int) -> int:
     """
     Multiplica dos números enteros.
 
@@ -15,11 +15,11 @@ def multiplicar(num1, num2):
     :return: Producto de número 1 y número 2.
     """
 
-    mult = num1*num2
-    return mult
+    # ¡Utiliza la función "sumar" de la biblioteca "aritmetica"!
+    pass
 
 
-def es_palindromo(palabra):
+def es_palindromo(palabra: str) -> bool:
     """
     Evalua si una palabra es un palíndromo.
 
@@ -28,8 +28,8 @@ def es_palindromo(palabra):
     :return: `True` si la palabra es un palíndromo, `False` en caso contrario.
     """
 
-    res = palabra[0:3]
-    return res
+    # ¡Utiliza la función "invertir" de la biblioteca "palabras"!
+    pass
 
 
 def haz_algo_con(esto: str) -> Any:
